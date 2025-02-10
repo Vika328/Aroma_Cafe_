@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e4;
+    color: #3e2723;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6f4e37;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #6f4e37;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d2691e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Групування секцій */
+.menu-items, .advantages, .gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Карточки переваг */
+.advantage {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 230px;
+    text-align: center;
+}
+
+.advantage img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Меню */
+.menu-items .item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+}
+
+.menu-items .item img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Галерея */
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    background-color: #6f4e37;
+    color: #f8f1e4;
+}
